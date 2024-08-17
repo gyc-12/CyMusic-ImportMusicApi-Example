@@ -1,4 +1,5 @@
 // example1.js 必须是utf-8编码，脚本所用编程语言为JavaScript
+//如果api地址是ip+端口形式，ios17+可能请求失败
 const API_URL = '';
 
 //getMusicUrl 函数用于获取音乐 URL。必须接受以下四个参数：songname: 歌曲名称，artist: 艺术家名称，songid: 企鹅平台的歌曲songmid，quality: 音质 '128k'|'320k'|'flac'。
